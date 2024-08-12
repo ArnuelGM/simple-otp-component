@@ -1,0 +1,29 @@
+body {
+  background-color: #222;
+
+  div {
+
+    display: flex;
+    gap: .7rem;
+    justify-content: center;
+
+    p {
+      width: 80px;
+      aspect-ratio: 1 / 1;
+      background-color: #333;
+      border-radius: 1rem;
+      color: goldenrod;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+      box-sizing: border-box;
+      font-family: sans-serif;
+      font-weight: bold;
+
+      &:focus {
+        outline: 2px solid goldenrod;
+      }
+    }
+  }
+}
